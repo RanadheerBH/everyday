@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elements & classes</title>
+    <style>
+        .one::first-letter{
+            color: red;
+            font-size: 60px;
+        }
+        .one::first-line{
+            color: green;
+        }
+        /* .one::before{
+            content: 'before test case';
+        } 
+        .one::after{
+            content: 'after test case';
+        } */
+         .one::selection{
+            background-color: black;
+            color: gold;
+         }
+    </style>
+</head>
+<body>
+    <p class="one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reprehenderit delectus, distinctio sunt qui, sapiente incidunt mollitia tempore consequuntur quisquam nulla animi sint? Odio accusamus, facere rerum voluptates repellendus ducimus.</p>
+    
+</body>
+</html>
